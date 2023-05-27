@@ -1,0 +1,44 @@
+@model QLNS.Models.Hopdong
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Sửa thông tin hợp đồng</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaNV" />
+            <div class="form-group">
+                <label asp-for="MaNV" class="control-label"></label>
+                <input asp-for="MaNV" class="form-control" readonly />
+                <span asp-validation-for="MaNV" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ngaybatdau" class="control-label"></label>
+                <input asp-for="Ngaybatdau" class="form-control" type="date" />
+                <span asp-validation-for="Ngaybatdau" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ngayketthuc" class="control-label"></label>
+                <input asp-for="Ngayketthuc" class="form-control" type="date" />
+                <span asp-validation-for="Ngayketthuc" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

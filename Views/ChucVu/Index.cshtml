@@ -1,0 +1,41 @@
+@model IEnumerable<QLNS.Models.ChucVu>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Chức vụ</h1>
+
+<p>
+    <a asp-action="Create">Tạo chức vụ mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaCV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenCV)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaCV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenCV)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaCV">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaCV">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaCV">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

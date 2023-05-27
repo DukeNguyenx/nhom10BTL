@@ -1,0 +1,32 @@
+@model QLNS.Models.ChucVu
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Xóa chức vụ này</h1>
+
+<h3>Bạn có chắc chắn muốn xóa chức vụ?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaCV)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaCV)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenCV)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenCV)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="MaCV" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

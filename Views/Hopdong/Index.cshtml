@@ -1,0 +1,47 @@
+@model IEnumerable<QLNS.Models.Hopdong>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Thông tin hợp đồng</h1>
+
+<p>
+    <a asp-action="Create">Tạo hợp đồng mới</a><br>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaNV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ngaybatdau)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ngayketthuc)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaybatdau)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngayketthuc)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaNV">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaNV">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaNV">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
