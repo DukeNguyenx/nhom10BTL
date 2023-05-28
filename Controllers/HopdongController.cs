@@ -12,6 +12,7 @@ namespace QLNS.Controllers
     public class HopdongController : Controller
     {
         private readonly ApplicationDbContext _context;
+         private StringProcess strPro = new StringProcess();
 
         public HopdongController(ApplicationDbContext context)
         {
@@ -47,6 +48,15 @@ namespace QLNS.Controllers
         // GET: Hopdong/Create
         public IActionResult Create()
         {
+            var newTaohopdongmoi = "NV01";
+            var countTaohopdongmoi = _context.Hopdong.Count();
+            if (countTaohopdongmoi > 0)
+            {
+                var MaNV = _context.Hopdong.OrderByDescending(m => m.MaNV).First().MaNV;
+                newTaohopdongmoi = strPro.AutoGenerateCode(MaNV);
+            }
+            ViewBag.newID = newTaohopdongmoi;
+
             return View();
         }
 
