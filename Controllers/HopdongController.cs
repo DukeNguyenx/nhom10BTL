@@ -48,14 +48,14 @@ namespace QLNS.Controllers
         // GET: Hopdong/Create
         public IActionResult Create()
         {
-            var newTaohopdongmoi = "NV01";
-            var countTaohopdongmoi = _context.Hopdong.Count();
-            if (countTaohopdongmoi > 0)
+            var newhopdong = "NV01";
+            var counthopdong = _context.Hopdong.Count();
+            if (counthopdong> 0)
             {
                 var MaNV = _context.Hopdong.OrderByDescending(m => m.MaNV).First().MaNV;
-                newTaohopdongmoi = strPro.AutoGenerateCode(MaNV);
+                newhopdong = strPro.AutoGenerateCode(MaNV);
             }
-            ViewBag.newID = newTaohopdongmoi;
+            ViewBag.newID = newhopdong;
 
             return View();
         }
