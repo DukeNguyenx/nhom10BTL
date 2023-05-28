@@ -9,125 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QLNS
 build_property.RootNamespace = QLNS
-build_property.ProjectDir = C:\nhom10BTL\
+build_property.ProjectDir = c:\nhom10BTL\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\nhom10BTL
+build_property.MSBuildProjectDirectory = c:\nhom10BTL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/nhom10BTL/Views/ChucVu/Create.cshtml]
+[c:/nhom10BTL/Views/ChucVu/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/ChucVu/Delete.cshtml]
+[c:/nhom10BTL/Views/ChucVu/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/ChucVu/Details.cshtml]
+[c:/nhom10BTL/Views/ChucVu/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/ChucVu/Edit.cshtml]
+[c:/nhom10BTL/Views/ChucVu/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/ChucVu/Index.cshtml]
+[c:/nhom10BTL/Views/ChucVu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/ChucVu/Upload.cshtml]
+[c:/nhom10BTL/Views/ChucVu/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y1Z1XFVwbG9hZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Home/Index.cshtml]
+[c:/nhom10BTL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Home/Privacy.cshtml]
+[c:/nhom10BTL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Hopdong/Create.cshtml]
+[c:/nhom10BTL/Views/Hopdong/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wZG9uZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Hopdong/Delete.cshtml]
+[c:/nhom10BTL/Views/Hopdong/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wZG9uZ1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Hopdong/Details.cshtml]
+[c:/nhom10BTL/Views/Hopdong/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wZG9uZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Hopdong/Edit.cshtml]
+[c:/nhom10BTL/Views/Hopdong/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wZG9uZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Hopdong/Index.cshtml]
+[c:/nhom10BTL/Views/Hopdong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wZG9uZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Nhansu/Create.cshtml]
+[c:/nhom10BTL/Views/Nhansu/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnN1XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Nhansu/Delete.cshtml]
+[c:/nhom10BTL/Views/Nhansu/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnN1XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Nhansu/Details.cshtml]
+[c:/nhom10BTL/Views/Nhansu/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnN1XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Nhansu/Edit.cshtml]
+[c:/nhom10BTL/Views/Nhansu/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnN1XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Nhansu/Index.cshtml]
+[c:/nhom10BTL/Views/Nhansu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnN1XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Phongban/Create.cshtml]
+[c:/nhom10BTL/Views/Phongban/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Phongban/Delete.cshtml]
+[c:/nhom10BTL/Views/Phongban/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Phongban/Details.cshtml]
+[c:/nhom10BTL/Views/Phongban/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Phongban/Edit.cshtml]
+[c:/nhom10BTL/Views/Phongban/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Phongban/Index.cshtml]
+[c:/nhom10BTL/Views/Phongban/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Phongban/Upload.cshtml]
+[c:/nhom10BTL/Views/Phongban/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cVXBsb2FkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Shared/Error.cshtml]
+[c:/nhom10BTL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/nhom10BTL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/_ViewImports.cshtml]
+[c:/nhom10BTL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/_ViewStart.cshtml]
+[c:/nhom10BTL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/nhom10BTL/Views/Shared/_Layout.cshtml]
+[c:/nhom10BTL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rvcotgry9g
